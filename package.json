@@ -1,0 +1,29 @@
+{
+  "name": "strapi-provider-translate-google-noapi",
+  "version": "1.0.0",
+  "description": "This is a provider for Strapi Plugin Translate that use Google Translate without requiring an API key.",
+  "keywords": [
+    "strapi",
+    "translate",
+    "provider",
+    "google",
+    "noapi"
+  ],
+  "author": "Etienne PASTEUR <me@etiennepasteur.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "./lib",
+  "scripts": {
+    "start": "node ./lib/index.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "bottleneck": "^2.19.5",
+    "jsdom": "^26.1.0"
+  },
+  "peerDependencies": {
+    "strapi-plugin-translate": "*"
+  }
+}
